@@ -11,14 +11,14 @@
 //console.log(liElement.length)
 
 //Declaração de Arrays 
-let num1=[1,2,3,4,5];
-let num2=[6,7,8,9,10];
-let num3=[num1,num2];
+//let num1=[1,2,3,4,5];
+//let num2=[6,7,8,9,10];
+//let num3=[num1,num2];
 
 
-console.log(`Array-1 ${num1}`);
-console.log(`Array-2 ${num2}`);
-console.log(`Array-3 ${num3}`);
+//console.log(`Array-1 ${num1}`);
+//console.log(`Array-2 ${num2}`);
+//console.log(`Array-3 ${num3}`);
 
 //Listabdo um Array, Técnica especial
 //num3.forEach((itemDoArray)=>{
