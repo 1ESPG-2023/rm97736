@@ -27,20 +27,20 @@ console.log(`Array-3 ${num3}`);
 //console.log(`Array-3 sendo listado ${num3}`);
 
 // Listando o array com MAP
-num3.map((numero,key)=>{
+//num3.map((numero,key)=>{
 
-    console.log(`${(key+1)} - Itens do array - ${numero}`);
+    //console.log(`${(key+1)} - Itens do array - ${numero}`);
     //numero.forEach((digitos)=>{
         //console.log(digitos)
     //})
-})
+//})
 
 // Convertendo HTMLColletion em Array de forma indireta
-const liElement = document.getElementsByTagName("li");
-const liElementArray = [...liElementHtml];
+//const liElement = document.getElementsByTagName("li");
+//const liElementArray = [...liElementHtml];
 
-liElementArray.map((item, key)=>{
-    console.log(`${key + 1} - ${item.textContent}`)
-})
+//liElementArray.map((item, key)=>{
+    //console.log(`${key + 1} - ${item.textContent = LOCALIZADO}`)
+//})
 
-console.log(liElement)
+//console.log(liElement)
