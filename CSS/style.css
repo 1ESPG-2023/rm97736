@@ -1,20 +1,22 @@
-.cabeçalho{
+.cabecalho{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: red;
+    background-position: left, right;
     width: 100vw;
     height: 20vh;
-    background-color: blueviolet;
     color: #fff;
 }
+.container{
 
-.container .central{
     display: flex;
     justify-content: space-between;
     width: 100vw;
-    height: 60vh;
-    background-color: aquamarine;
+    height: auto;
+    background-color: mediumaquamarine;
 }
+
 .container .central{
     flex-grow: 5;
     background-color: olive;
@@ -28,4 +30,13 @@
 .container .l-d{
     flex-grow: 1;
     background-color: orchid;
+}
+
+.cabe{
+
+}
+
+.imgcabe{
+    width: 100vw;
+    height: 20vh;
 }
