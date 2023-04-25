@@ -45,21 +45,44 @@
 
 //console.log(liElement)
 
-function soma(p1,p2,p3) {
-    nr1 = p1;
-    nr2 = p2;
+// function soma(p1,p2,p3) {
+//     nr1 = p1;
+//     nr2 = p2;
 
-    return (parseInt(nr1) + parseInt(nr2) + parseInt(p3))
+//     return (parseInt(nr1) + parseInt(nr2) + parseInt(p3))
 
-    //console.log(`Resultado: ${nr1 + nr2 + parseInt(parametro)}`);
-    //console.log(`Este é o parametro que foi passado: ${parametro}`);
-}
+//     //console.log(`Resultado: ${nr1 + nr2 + parseInt(parametro)}`);
+//     //console.log(`Este é o parametro que foi passado: ${parametro}`);
+// }
 
-//ARROW FUNCTION
-const mudaCor = ()=>{
+// //ARROW FUNCTION
+// const mudaCor = ()=>{
 
-    //FUNÇÃO SET_TIME_OUT
-    setTimeout(soma(1,2,3), 5000);
+//     //FUNÇÃO SET_TIME_OUT
+//     setTimeout(soma(1,2,3), 5000);
+// }
+
+// mudaCor();
+
+function mudaCor(){
+    let r = "";
+    let g = "";
+    let b = "";
+
+    //random = gera números aleatorios entre 0 e 1
+    //ceil, floor e round que arrendondam o número para cima, para baixo ou aleatóriamente
+    
+
+    //Determinando para a variavel r um valor entre 0 e 255
+    r = Math.round(Math.random()*255);
+    g = Math.round(Math.random()*255);
+    b = Math.round(Math.random()*255);
+
+    const cabecalho = document.querySelector(".cabecalho");
+
+    cabecalho.setAttribute("style", `background-color: rgb(${r},${g},${b})`)
+
+    tmp = setTimeout(mudaCor, 150);
 }
 
 mudaCor();

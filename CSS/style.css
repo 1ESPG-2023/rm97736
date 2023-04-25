@@ -1,4 +1,4 @@
-.cabeçalho{
+.cabecalho{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,14 +7,15 @@
     background-color: blueviolet;
     color: #fff;
 }
+.container{
 
-.container .central{
     display: flex;
     justify-content: space-between;
     width: 100vw;
     height: 60vh;
-    background-color: aquamarine;
+    background-color: mediumaquamarine;
 }
+
 .container .central{
     flex-grow: 5;
     background-color: olive;
