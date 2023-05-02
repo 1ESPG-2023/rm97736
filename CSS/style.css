@@ -1,42 +1,34 @@
 .cabecalho{
-    display: flex;
+    display:flex;
     justify-content: center;
     align-items: center;
-    background-color: red;
-    background-position: left, right;
     width: 100vw;
     height: 20vh;
+    background-color: blue;
     color: #fff;
 }
+    
 .container{
-
     display: flex;
     justify-content: space-between;
     width: 100vw;
-    height: auto;
-    background-color: mediumaquamarine;
+    height: 130vh;
+    align-items: center;
 }
-
+    
 .container .central{
     flex-grow: 5;
-    background-color: olive;
 }
-
+    
 .container .l-e{
-    flex-grow: 1;
-    background-color: orange;
+    flex-grow: 5;
 }
-
+    
 .container .l-d{
+    flex-grow: 5;
+}
+    
+.banner{
     flex-grow: 1;
-    background-color: orchid;
-}
-
-.cabe{
-
-}
-
-.imgcabe{
-    width: 100vw;
-    height: 20vh;
-}
+    width: 100%;
+    height: 100%;}
