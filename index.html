@@ -1,70 +1,66 @@
 <!DOCTYPE html>
-<body lang="pt-br">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exemplo Arrays</title>
     <script src="./js/zyb-5647.js" defer></script>
-    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./css/estilo.css">
 </head>
 <body>
-
+  
     <header class="cabecalho">
-        <img src="./img/banner-1440x300-1.jpg">
-        <!-- <span>CABEÇALHO</span> -->
+        <span>CABEÇALHO</span>
     </header>
 
     <div class="container">
         <aside class="l-e">
-            <img src="./img/banner-lateral-1.png">
-            <!-- <span>B-E</span> -->
+            <img src="./img/banner-lateral-1.png" alt="Quadro">
         </aside>
+
+        <section class="central">
         
-        <!-- <section class="central">
-            <img src="./img/banner-lateral-2.png">
-            <span>CONTEÚDO</span> -->
-            <!--</section> -->
+            <div>
+                <img src="./img/pic_bulboff.gif" alt="Lampada">
+            </div>
 
-            <section class="central">
-                <div>
-                    <img src="img/pic_bulboff.gif" alt="Lampada">
-                </div>
-                <button onclick="ligaDesliga()">LIGAR</button>
-            </section>
-
+            <!-- <button onclick="ligaDesliga()">LIGAR</button> -->
+            <button>LIGAR</button>
+        </section>
+        
         <aside class="l-d">
-            <img src="./img/banner-lateral-3.png">
-            <!-- <span>B-D</span> -->
+            <img src="./img/banner-lateral-2.png" alt="Quadro">
         </aside>
     </div>
+
 
     <div class="info">
         <form action="index.html" method="get" onsubmit="return false">
-        <fieldset>
-            <legend>LOGIN</legend>
-            <div>
-                <label for="idUser">Usuário</label>
-                <input type="text" name="nmUser" id="idUser" placeholder="Usuário">
-            </div>
-            <div>
-                <label for="idPass">Senha</label>
-                <input type="password" name="txtPass" id="idPass" placeholder="Senha">
-            </div>
-            <div>
-                <button type="button">LOGIN</button>
-            </div>
-        </fieldset>
-    </form>
+            <fieldset>
+                <legend>LOGIN</legend>
+                <div>
+                    <label for="idUser">Usuário - (Mínimo 8 letras)</label>
+                    <input type="text" name="nmUser"  id="idUser" placeholder="Usuário">
+                </div>
+                <div>
+                    <label for="idPass">Senha</label>
+                    <input type="password" name="txtPass" id="idPass" placeholder="Senha">
+                </div>
+                <div>
+                    <button type="button">LOGIN</button>
+                </div>
+            </fieldset>
+        </form>
     </div>
-    <footer class="rodape">
-        <!-- <span>RODAPÉ</span>
-        <button value="10" onclick="console.log(`Resultado ${soma(this.value,10,5)}`)">CLICK</button>--->
-        <!-- <button onclick="mudaCor()"> START </button> -->
-        <!-- <button onclick="clearTimeout(tmp)">STOP</button> -->
-    </footer>
 
+
+    <foooter class="rodape">
+        <span>RODAPÉ</span>
+        <!-- <button value="10" onclick="console.log(`Resultado ${soma(this.value,10,5)}`)">CLICK</button> -->
+        <button onclick="mudaCor()">START</button>
+        <button onclick="clearTimeout(tmp)">STOP</button>
+    </foooter>
 
 </body>
 </html>
-<!--aula 18/4-->
